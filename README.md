@@ -45,7 +45,7 @@ for example, when you run test,
 
 ```
 $ docker-compose exec php vendor/bin/phpunit ./tests
-^[[A^[[APHPUnit 9.5.4 by Sebastian Bergmann and contributors.
+PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
 
 ..                                                                  2 / 2 (100%)
 
