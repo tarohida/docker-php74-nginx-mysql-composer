@@ -12,5 +12,4 @@ RUN apt-get update \
     # without version, pecl brings 3.x and it does not works now.
     && docker-php-ext-enable xdebug \
     && docker-php-ext-install -j$(nproc) zip \
-    && docker-php-ext-install -j$(nproc) pgsql \
-    && docker-php-ext-install -j$(nproc) pdo_pgsql
+    && docker-php-ext-install -j$(nproc) pdo_mysql 
